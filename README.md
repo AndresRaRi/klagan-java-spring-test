@@ -8,9 +8,6 @@ Este proyecto de Spring Boot proporciona un servicio REST para consultar los pre
 - [Configuración](#configuración)
 - [Uso](#uso)
 - [Pruebas Unitarias](#pruebas-unitarias)
-- [Ejemplos de Solicitud](#ejemplos-de-solicitud)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 
 ## Requisitos
 
@@ -42,3 +39,7 @@ La aplicación buscará el precio aplicable según los parámetros proporcionado
 ## Pruebas Unitarias
 
 El proyecto incluye pruebas unitarias para verificar el funcionamiento correcto del servicio. Puedes ejecutar estas pruebas usando tu entorno de desarrollo o ejecutando `mvn test` en la línea de comandos.
+
+## Swagger
+
+El proyecto incluye swagger, por lo cual con tal al correr el proyecto se podra acceder a la API con la siguiente **URL: http://localhost:8080/swagger-ui/index.html#/**
